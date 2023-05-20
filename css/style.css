@@ -226,6 +226,7 @@ p {
 #quote h2{
 	background-color: white;
 	padding: 16%;
+	width: 100%;
 }
 h3{
 	font-size: 1rem;
@@ -240,30 +241,37 @@ h2{
 	padding: 24px;
 }
 
+#human-centred {
+	display: flex;
+	flex-direction: column;
+}
 
-#human-centred article  {
+.article-container {
+	display: flex;
+}
+
+.article-container article  {
 	padding: 24px;
 	margin: 4px;
 	align-items: center;
-	max-width: 50%;
-	height 80px;
+	width: 25%;
 	background-color: var(--green);
 }
 
-#human-centred article .icon {
+.article-container article .icon {
 	height: 64px;
 	margin: 24px;
 	align-items: center ;
 	color: #9d868d;
 }
 
-#human-centred article h3 {
+.article-container article h3 {
 	margin-bottom: 16px;
 	color: var(--gray);
 	text-align: center;
 }
 
-#human-centred article p {
+.article-container article p {
 	margin-bottom: 16px;
 }
 
